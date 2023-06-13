@@ -1,0 +1,30 @@
+{
+  "name": "clipboardmanager",
+  "private": true,
+  "productName": "Clipboard Manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ClipboardManager --platform=darwin --arch=x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaza1994/ClipboardManager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaza1994/ClipboardManager/issues"
+  },
+  "homepage": "https://garethjohnstone.co.uk/portfolio/clipboardmanager",
+  "author": "Gareth Johnstone <me@garethjohnstone.co.uk> (https://garethjohnstone.co.uk)",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "electron-positioner": "^4.1.0"
+  }
+}
